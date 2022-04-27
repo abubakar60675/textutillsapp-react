@@ -26,7 +26,7 @@ const TextForm = (props) => {
     props.showAlert("Extra Spaces Removed", "success");
   };
 
-  const [text, setText] = useState("Enter text here2");
+  const [text, setText] = useState("Enter text here");
 
   // text = "new text"; // Wrong way to change the state
   // setText("new text") // Correct way to change the state
